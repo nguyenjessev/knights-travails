@@ -97,5 +97,13 @@ def knight_moves(start, target)
 
   path = board.find_path(target)
 
-  p path
+  if path.nil?
+    puts 'Invalid start or target position.'
+    return nil
+  end
+
+  puts "Shortest path: #{path.length - 1} moves"
+  path.each do |move|
+    p move
+  end
 end
