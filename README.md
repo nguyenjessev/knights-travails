@@ -9,3 +9,5 @@ Breadth-first search, Ruby modules and classes
 
 ## What I learned
 Breadth-first search
+
+[![Run on Repl.it](https://repl.it/badge/github/nguyenjessev/knights-travails)](https://repl.it/github/nguyenjessev/knights-travails)
